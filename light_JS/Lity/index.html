@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="dist/lity.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Declarative -->
+    <a
+      href="https://farm9.staticflickr.com/8642/16455005578_0fdfc6c3da_b.jpg"
+      data-lity
+      data-lity-desc="Photo of a flower"
+      data-title="My caption"
+      >Image</a
+    >
+    <a href="#inline" data-lity>Inline</a>
+    <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>iFrame Youtube</a>
+    <a href="//vimeo.com/1084537" data-lity>iFrame Vimeo</a>
+    <a
+      href="//maps.google.com/maps?q=1600+Amphitheatre+Parkway,+Mountain+View,+CA"
+      data-lity
+      >Google Maps</a
+    >
+    <a href="images/image-1.jpg" data-lity data-lity-target="images/image-1.jpg"
+      ><img src="images/image-1.jpg" alt="image-1" width="300px"
+    /></a>
+
+    <a href="index.html" data-lity>URL</a>
+
+    <div id="inline" style="background: #fff" class="lity-hide">
+      Inline content
+    </div>
+
+    <script src="vendor/jquery.js"></script>
+    <script src="dist/lity.js"></script>
+  </body>
+</html>

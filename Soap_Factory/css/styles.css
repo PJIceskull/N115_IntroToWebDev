@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+span {
+  color: #ef767a;
+}
+
+/* font face */
+@font-face {
+  font-family: RobotoBold;
+  src: url(Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: RobotoLight;
+  src: url(Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: RobotoBoldItalic;
+  src: url(Roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: LoraItalic;
+  src: url(Lora/Lora-Italic.ttf);
+}
+
+/* wrappers */
+.whole-site {
+  width: 1366px;
+  /* center items */
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper {
+  /* background color */
+  /* background-color: aqua; */
+  display: flex;
+  /* wrapper all your items into a column (vertically) */
+  flex-direction: column;
+  /* align items to the center of page */
+  align-items: center;
+  padding: 50px;
+}
+
+/* navigation */
+nav {
+  height: 165px;
+  /* background-color: coral; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .links {
+}
+
+nav .links a {
+  text-decoration: none;
+  color: #000;
+  font-family: RobotoLight;
+  margin-right: 92px;
+}
+
+nav .links a.active-link {
+  color: #ef767a;
+  font-family: RobotoBoldItalic;
+}
+
+nav .logo {
+}
+
+nav .logo span {
+  text-decoration: none;
+  color: #ef767a;
+  font-family: RobotoBold;
+}
+
+/* owners-prods classes */
+.owners-prods {
+  width: 817px;
+  /* background-color: aqua; */
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.owners-prods .own-prod-img {
+  width: 224px;
+  min-height: 50px;
+  /* background-color: beige; */
+}
+
+.owners-prods .own-prod-img .circle {
+  width: 224px;
+  height: 224px;
+  border-radius: 112px;
+  /* background-color: crimson; */
+  /* overflow: hidden; */
+}
+
+/* .owners-prods .own-prod-img .circle img {
+  height: 100%;
+} */
+/* text */
+.owners-prods .own-prod-text {
+  width: 513px;
+  min-height: 50px;
+  /* background-color: brown; */
+  margin-left: 80px;
+}
+
+.owners-prods .own-prod-text h3 {
+  color: #ef767a;
+  font-family: RobotoBoldItalic;
+  font-size: 30px;
+  margin-bottom: 39px;
+  margin-top: 40px;
+}
+
+.owners-prods .own-prod-text p {
+  font-family: LoraItalic;
+}
+
+/* Profile Pictures */
+.bike-pic {
+  background-image: url(../images/defianceImage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.owner-pic {
+  background-image: url(../images/owner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.co-owner-pic {
+  background-image: url(../images/co-owner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Sideways Text */
+.sideways-text {
+  color: #ef767a;
+  font-size: 80px;
+  font-family: RobotoBold;
+  letter-spacing: 25px;
+  position: absolute;
+  top: 600px;
+  left: -345px;
+  width: 692px;
+  text-align: right;
+  transform: rotate(-90deg);
+  /* background-color: blue; */
+}
+
+.contactText {
+  text-align: left;
+  font-family: RobotoLight;
+  font-size: 16px;
+}
+
+/* Contact Boxes */
+form {
+  width: 1014px;
+  /* background-color: bisque; */
+  margin: 0 auto;
+}
+
+/* label, */
+input {
+  display: block;
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+.full-size {
+  width: 100%;
+  height: 81px;
+  border: 3px solid #ef767e;
+  margin: 29px 0 81px 0;
+}
+.submit {
+  color: #fff;
+  width: 246px;
+  height: 76px;
+  font-size: 26px;
+  font-family: RobotoLight;
+  letter-spacing: 2.6px;
+  background-color: #ef767a;
+  padding: 21px;
+  border-radius: 38px;
+  border: none;
+  margin: 0 auto;
+}
+
+/* footer */
+footer {
+  min-height: 100px;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 105px;
+  font-family: RobotoLight;
+  font-size: 16px;
+}

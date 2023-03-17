@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- This is a parent -->
+    <div class="whole-site">
+      <!-- Navigation -->
+      <nav>
+        <div class="links">
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="products.html">PRODUCTS</a>
+          <a class="active-link" href="contact.html">CONTACT</a>
+        </div>
+        <div class="logo">
+          <span>Pierce Issah</span>
+        </div>
+      </nav>
+      <img src="images/hero.png" alt="Banner" />
+      <div class="wrapper">
+        <!-- Contact Text -->
+        <div class="contactText">
+          <!-- place holder text -->
+          <!-- <p>First Name <span>*</span>:</p>
+          <div class="redBox"></div>
+
+          <p>Last Name <span>*</span>:</p>
+          <div class="redBox"></div>
+
+          <p>Email <span>*</span>:</p>
+          <div class="redBox"></div>
+
+          <p>Phone Number <span>*</span>:</p>
+          <div class="redBox"></div> -->
+          <form>
+            <!-- Labels & Inputs -->
+            <!-- First Name -->
+            <label for="fname"
+              >First name: <span class="required">*</span></label
+            >
+            <input class="full-size" type="text" id="fname" name="fname" />
+            <!-- Last Name -->
+            <label for="lname"
+              >Last name: <span class="required">*</span></label
+            >
+            <input class="full-size" type="text" id="lname" name="lname" />
+            <!-- Email -->
+            <label for="eMail">Email: <span class="required">*</span></label>
+            <input class="full-size" type="text" id="eMail" name="eMail" />
+            <!-- Phone Number -->
+            <label for="pNumber"
+              >Phone Number: <span class="required">*</span></label
+            >
+            <input class="full-size" type="text" id="pNumber" name="pNumber" />
+
+            <!-- Submit Box -->
+            <input class="submit" type="submit" value="SUBMIT" />
+          </form>
+        </div>
+      </div>
+      <div class="sideways-text">CONTACT</div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <!--  Terms & Conditions -->
+      <div class="copy">&copy; The Soap Factory</div>
+      <div class="Terms">&copy; Terms & Conditions</div>
+    </footer>
+  </body>
+</html>

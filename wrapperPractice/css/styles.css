@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* this adjusts the height if the html and body */
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+/* this is NAV styling */
+nav {
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header {
+  height: 300px;
+  background-image: url(../images/hero.jpg);
+}
+
+.top {
+}
+
+.parent {
+  width: 1000px;
+  /* center the group of Divs */
+  margin: 0 auto;
+  background-color: beige;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  align-content: center;
+}
+
+.left img {
+  width: 80%;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  background-color: gray;
+  padding: 10px;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,61 @@
+.wrapperP1 {
+  display: flex;
+}
+
+.wrapperP3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pageOneBox1 {
+  height: 250px;
+  width: 250px;
+  background-color: red;
+}
+
+.pageOneBox2 {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+
+.pageOneBox3 {
+  height: 175px;
+  width: 175px;
+  background-color: green;
+}
+
+.pageTwoBox1 {
+  height: 250px;
+  width: 250px;
+  background-color: red;
+  margin-left: 50px;
+}
+
+.pageTwoBox2 {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  margin-left: 150px;
+}
+
+.pageTwoBox3 {
+  height: 175px;
+  width: 175px;
+  background-color: green;
+  margin-top: -475px;
+  margin-left: 210px;
+}
+
+.pageThirdBox2 {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  margin-right: 100px;
+}
+
+.pageThirdBox3 {
+  height: 175px;
+  width: 175px;
+  background-color: green;
+}

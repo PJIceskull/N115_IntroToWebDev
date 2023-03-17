@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+  font-family: Roboto-Regular;
+  color: #ffffff;
+}
+
+/* colors */
+/*   
+  color: #222222;
+  color: #2667ff;
+  color: #ffffff; 
+  color: #707070; 
+  */
+
+/* fonts */
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Light;
+  src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+
+.whole-site {
+  width: 1280px;
+  margin: 0 auto;
+  min-height: 100%;
+  /* add min-height so that class will expanded if it goes past 100% */
+  background-color: #222222;
+}
+
+/* section {
+  background-color: #222222;
+} */
+
+.secondHalf {
+  height: 640px;
+  margin-left: 45px;
+  margin-right: 70px;
+  margin-top: 256px;
+  /* background-color: orange; */
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.webSection {
+  /* background-color: coral; */
+  width: 1156px;
+  /* height: 50%; */
+  min-height: 333px;
+  /* margin-left: 62px;
+  margin-right: 62px; */
+  margin: 20px 62px 42px;
+  display: flex;
+  align-content: center;
+}
+
+/* navigation links */
+nav {
+  background-color: #ffffff;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .link {
+}
+
+nav .links a {
+  color: #2667ff;
+  font-family: Roboto-Regular;
+  font-size: 19px;
+  text-decoration: none;
+  margin-left: 85px;
+  /* margin-right: 139px; */
+  margin-right: 85px;
+}
+
+nav .links span {
+  font-family: Roboto-Bold;
+}
+
+/* text */
+.welcomeText {
+  font-family: Roboto-Light;
+  font-size: 33px;
+  letter-spacing: 2.6px;
+  padding-top: 155px;
+  padding-left: 685px;
+  margin-right: 39px;
+}
+
+.welcomeText span {
+  color: #2667ff;
+  font-family: Roboto-Bold;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 17px 426px 0px 426px;
+  padding-bottom: 15px;
+}
+
+.contactLink a {
+  font-size: 28px;
+  font-family: Roboto-Bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.titleText {
+}
+
+.titleText h1 {
+  font-size: 135px;
+  font-family: Roboto-Bold;
+  letter-spacing: 13.6px;
+  color: #2667ff;
+  margin-left: 45px;
+  margin-top: 62px;
+}
+
+.titleText h2 {
+  font-size: 105px;
+  font-family: Roboto-Bold;
+  letter-spacing: 10.6px;
+  color: #2667ff;
+}
+
+.titleText .ctext {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.titleText .ptext {
+  margin-left: 340px;
+  /* margin-right: 340px; */
+  margin-top: 37px;
+}
+
+.aboutText {
+  /* background-color: coral; */
+  width: 742px;
+  height: 40%;
+  margin-left: 45px;
+  display: flex;
+}
+
+.aboutText p {
+  font-family: Roboto-Medium;
+  font-size: 30px;
+}
+
+.projectText {
+  margin-left: 60px;
+}
+
+.projectText h2 {
+  font-family: Roboto-Bold;
+  font-size: 72px;
+}
+
+.projectText p {
+  font-family: Roboto-Regular;
+  font-size: 30px;
+  max-width: 457px;
+}
+
+.contactText {
+  /* background-color: aliceblue; */
+  width: 1165px;
+  min-height: 100%;
+  color: #2667ff;
+  margin-left: 60px;
+}
+
+.contactText label {
+  font-family: Roboto-Bold;
+  font-size: 26px;
+  text-align: left;
+  letter-spacing: 2.6px;
+  margin-bottom: 12px;
+}
+
+/* inputs & input box*/
+form {
+  width: 1165px;
+}
+
+input {
+  display: block;
+  color: #222222;
+  font-size: 22px;
+  font-family: Roboto-Regular;
+  /* padding-left: 10px; */
+  margin-top: 12px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.full-size {
+  width: 100%;
+  height: 60px;
+  /* background-color: aliceblue; */
+}
+
+/* boxs */
+.box1 {
+  color: #ffffff;
+  background-color: #2667ff;
+  width: 1280px;
+  height: 222px;
+  display: flex;
+  align-items: center;
+  /* margin-right: 39px; */
+}
+
+.box1 h1 {
+  font-family: Roboto-Bold;
+  letter-spacing: 10.6px;
+  font-size: 106px;
+  margin-left: 339px;
+}
+
+.box2 {
+  /* background-color: orangered; */
+  height: 256px;
+  width: 543px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.box2 h2 {
+  color: #2667ff;
+  font-family: Roboto-Bold;
+  font-size: 85px;
+  letter-spacing: 8.5px;
+}
+
+.box2 a {
+  color: #2667ff;
+  font-family: Roboto-Regular;
+  font-size: 25px;
+  letter-spacing: 2.6px;
+  text-decoration: none;
+}
+
+.textbox {
+  background-color: #ffffff;
+  height: 110px;
+  width: 490px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.submitBox {
+  color: #ffffff;
+  background-color: #2667ff;
+  font-size: 26px;
+  font-family: Roboto-Bold;
+  letter-spacing: 2.6px;
+  width: 246px;
+  height: 48px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 460px;
+}
+
+.projectImage {
+  background-color: #ffffff;
+  height: 333px;
+  width: 579px;
+}
+
+/* images */
+.blueImage {
+  width: 500px;
+  height: 588px;
+  background-color: gold;
+  margin-left: 20px;
+  /* margin: 0 auto; */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(38, 103, 255, 0.8)
+    ),
+    url(../images/Leaves.JPEG);
+  background-position: center;
+  background-size: cover;
+}
+
+.profilePic {
+  height: auto;
+  position: absolute;
+  display: flex;
+}
+.profilePic img {
+  width: 356px;
+  height: 476px;
+  position: relative;
+  margin-top: -435px;
+  /* top: -500px; */
+  margin-left: 863px;
+}
+
+.webPage-Pic1 {
+  height: 100%;
+  background-image: url(../images/webPage1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.webPage-Pic2 {
+  height: 100%;
+  background-image: url(../images/webPage2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.webPage-Pic3 {
+  height: 100%;
+  background-image: url(../images/webPage3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.webPage-Pic4 {
+  height: 100%;
+  background-image: url(../images/webPage4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
